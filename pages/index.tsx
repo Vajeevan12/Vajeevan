@@ -31,7 +31,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         
       </Head>
-      <main className=" bg-white px-10  dark:bg-gray-900 md:px-20 lg:px-40">
+      <main className=" bg-white   dark:bg-gray-900 md:px-20 lg:px-40">
         <section className="" >
           <nav className="py-10 mb-12 flex justify-between dark:text-white rou">
             <h1 className="text-sm md:text-xl">Vajeevan R</h1>
