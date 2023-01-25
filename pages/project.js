@@ -64,7 +64,7 @@ export default function Home() {
             </div>
             <div className="px-10 py-10 dark:text-gray-200">
             <h1 className="text-xl text-left text-gray-600 py-5 sm:text-5xl dark:text-gray-200" >At-a-Glance</h1>
-                <p className="py-2 px-5">I worked on a project as a UX designer for over 
+                <p className="py-2 text-black px-5">I worked on a project as a UX designer for over 
                 a month guided by google UX design course materials and peers. I worked 
                 to solve a problem with users having no idea about the food menu and hidden 
                 costs. I identified this problem by researching online and with my friends. 
@@ -73,7 +73,7 @@ export default function Home() {
 
             </div>
             <br></br>
-            <div className=" px-10 flex flex-col md:flex-row dark:text-gray-200 " >
+            <div className=" px-10 flex text-black flex-col md:flex-row dark:text-gray-200 " >
                 <div className=" px-10 basis-1/3">
                     <h4 className=" font-bold  "> Timeline</h4>
                     <br></br>
@@ -94,7 +94,7 @@ export default function Home() {
                 </div>  
                 <br></br> 
             </div>  
-            <div className="px-10 py-10 dark:text-gray-200">
+            <div className="px-10 py-10 text-black dark:text-gray-200">
                 <h1 className="text-xl text-left text-gray-600 py-5 sm:text-5xl dark:text-gray-200" >Problem</h1>
                 <p className="py-2 px-5">Restaurant’s Food menu and their hidden costs 
                 have the following problems:</p>
@@ -103,7 +103,7 @@ export default function Home() {
                     <li>faces difficulty in understanding continental foods and struggles to choose a meal</li>
                 </ul>
             </div>  
-            <div className="px-10 py-10 dark:text-gray-200">
+            <div className="px-10 py-10 text-black dark:text-gray-200">
             <h1 className="text-xl text-left text-gray-600 py-5 sm:text-5xl dark:text-gray-200" >Solution</h1>
                 <p className="py-2 px-5">I designed an app that has a clear description 
                 of the food items. Users can select the food they are gonna have and 
@@ -121,7 +121,7 @@ export default function Home() {
             </div>
             <div className="px-10 py-10 dark:text-gray-200">
             <h1 className="text-xl text-left text-gray-600 py-5 sm:text-5xl dark:text-gray-200" >Persona</h1>
-                <p className="py-2 px-5">To understand the users, I chose two kinds 
+                <p className="py-2 text-black px-5">To understand the users, I chose two kinds 
                 of user personas and developed it</p>
                 <Image src={slide1} alt={""}  />
                 <Image src={slide2} alt={""}  />
@@ -144,21 +144,21 @@ export default function Home() {
             </div>
             <div className="px-10 py-10 dark:text-gray-200">
             <h1 className="text-xl text-left text-gray-600 py-5 sm:text-5xl dark:text-gray-200" >Paper first</h1>
-                <p className="py-2 px-5">The process below begins with my initial ideas 
+                <p className="py-2 text-black px-5">The process below begins with my initial ideas 
                 wireframes, then moves to mockups, and finally to the high-fidelity prototype. 
                 In this simple version, you can see how I Choose a Home page design by rapid
                  paper wireframing.</p>
                 <Image src={paper} alt={""}  />
             </div>
-            <div className="px-10 py-10 dark:text-gray-200">
+            <div className="px-10 py-10  dark:text-gray-200">
             <h1 className="text-xl text-left text-gray-600 py-5 sm:text-5xl dark:text-gray-200" >From Paper to Digital</h1>
-                <p className="py-2 px-5">I then brought my idea to an interactive digital 
+                <p className="py-2 px-5 text-black">I then brought my idea to an interactive digital 
                 low-fidelity prototype</p>
                 <Image src={digital} alt={""}  />
             </div>
-            <div className="px-10 py-10 dark:text-gray-200">
+            <div className="px-10 py-10  dark:text-gray-200">
             <h1 className="text-xl text-left text-gray-600 py-5 sm:text-5xl dark:text-gray-200" >User Flow</h1>
-                <p className="py-2 px-5">After getting some ideas on paper, I mapped 
+                <p className="py-2 px-5 text-black">After getting some ideas on paper, I mapped 
                 out the user flow if Lana Uses our app</p>
                 <Image src={flow} alt={""}  />
             </div>
@@ -168,7 +168,7 @@ export default function Home() {
             </div>
             <div className="px-10 py-10">
             <h1 className="text-xl text-left text-gray-600 py-5 sm:text-5xl dark:text-gray-200" >Design Iterations</h1>
-                <ol className="list-decimal px-10 dark:text-gray-200">
+                <ol className="list-decimal px-10 text-black dark:text-gray-200">
                     <li>Improved Hierarchy</li>
                     <li>Changed Home design</li>
                     <li>Added End User flow </li>
