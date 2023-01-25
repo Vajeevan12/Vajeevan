@@ -31,10 +31,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         
       </Head>
-      <main className=" bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
+      <main className=" bg-white px-5 dark:bg-gray-900 md:px-20 lg:px-40">
         <section className="" >
           <nav className="py-5 mb-6 flex justify-between dark:text-white rou">
-            <h1 className="text-sm md:text-xl">Vajeevan R</h1>
+            <h1 className="text-xs md:text-xl">Vajeevan R</h1>
             <ul className="flex items-center">
               <li>
                 <BsFillMoonStarsFill
@@ -44,7 +44,7 @@ export default function Home() {
               </li>
               <li>
                 <a
-                  className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white text-sm md:text-lg px-4 py-2 border-none rounded-md ml-8"
+                  className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white text-xs md:text-lg px-4 py-2 border-none rounded-md ml-8"
                   href="#"
                 >
                   Resume
