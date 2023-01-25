@@ -33,7 +33,7 @@ export default function Home() {
       </Head>
       <main className=" bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
         <section className="" >
-          <nav className="py-10 mb-12 flex justify-between dark:text-white rou">
+          <nav className="py-5 mb-6 flex justify-between dark:text-white rou">
             <h1 className="text-sm md:text-xl">Vajeevan R</h1>
             <ul className="flex items-center">
               <li>
