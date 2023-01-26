@@ -64,7 +64,7 @@ export default function Home() {
             </div>
             <div className="px-10 py-10 dark:text-gray-200">
             <h1 className="text-xl text-left text-gray-600 py-5 sm:text-5xl dark:text-gray-200" >At-a-Glance</h1>
-                <p className="py-2 text-black px-5">I worked on a project as a UX designer for over 
+                <p className="py-2 text-black dark:text-gray-200 px-5">I worked on a project as a UX designer for over 
                 a month guided by google UX design course materials and peers. I worked 
                 to solve a problem with users having no idea about the food menu and hidden 
                 costs. I identified this problem by researching online and with my friends. 
@@ -121,7 +121,7 @@ export default function Home() {
             </div>
             <div className="px-10 py-10 dark:text-gray-200">
             <h1 className="text-xl text-left text-gray-600 py-5 sm:text-5xl dark:text-gray-200" >Persona</h1>
-                <p className="py-2 text-black px-5">To understand the users, I chose two kinds 
+                <p className="py-2 text-black dark:text-gray-200 px-5">To understand the users, I chose two kinds 
                 of user personas and developed it</p>
                 <Image src={slide1} alt={""}  />
                 <Image src={slide2} alt={""}  />
@@ -144,7 +144,7 @@ export default function Home() {
             </div>
             <div className="px-10 py-10 dark:text-gray-200">
             <h1 className="text-xl text-left text-gray-600 py-5 sm:text-5xl dark:text-gray-200" >Paper first</h1>
-                <p className="py-2 text-black px-5">The process below begins with my initial ideas 
+                <p className="py-2 text-black dark:text-gray-200 px-5">The process below begins with my initial ideas 
                 wireframes, then moves to mockups, and finally to the high-fidelity prototype. 
                 In this simple version, you can see how I Choose a Home page design by rapid
                  paper wireframing.</p>
@@ -152,13 +152,13 @@ export default function Home() {
             </div>
             <div className="px-10 py-10  dark:text-gray-200">
             <h1 className="text-xl text-left text-gray-600 py-5 sm:text-5xl dark:text-gray-200" >From Paper to Digital</h1>
-                <p className="py-2 px-5 text-black">I then brought my idea to an interactive digital 
+                <p className="py-2 px-5 text-black dark:text-gray-200">I then brought my idea to an interactive digital 
                 low-fidelity prototype</p>
                 <Image src={digital} alt={""}  />
             </div>
             <div className="px-10 py-10  dark:text-gray-200">
             <h1 className="text-xl text-left text-gray-600 py-5 sm:text-5xl dark:text-gray-200" >User Flow</h1>
-                <p className="py-2 px-5 text-black">After getting some ideas on paper, I mapped 
+                <p className="py-2 px-5 text-black dark:text-gray-200">After getting some ideas on paper, I mapped 
                 out the user flow if Lana Uses our app</p>
                 <Image src={flow} alt={""}  />
             </div>
