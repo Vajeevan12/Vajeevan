@@ -154,7 +154,7 @@ export default function Home() {
                 <p className="text-gray-800 py-1">Figma</p>
               </div>
               <div className="text-center">
-                  <button className="button font-bold "><span>Read Case Study</span></button>
+                  <button className="button font-bold "><span>Coming Soon</span></button>
               </div>
             </div>
               
