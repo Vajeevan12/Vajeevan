@@ -63,8 +63,8 @@ export default function Home() {
               <div className="wrapper">
                 <div className="static-txt mt-8 text-lg md:text-6xl md:mt-3 ">I'm a</div>
                 <ul className="dynamic-txts text-lg md:text-6xl ">
-                  <li><span> UI/UX Designer</span></li>
                   <li><span> Web Developer</span></li>
+                  <li><span> UI/UX Designer</span></li>
                   <li><span> Product Designer</span></li>
                   <li><span>UX Researcher</span></li>
                </ul>
